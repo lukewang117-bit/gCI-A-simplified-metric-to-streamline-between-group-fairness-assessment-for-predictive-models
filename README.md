@@ -28,15 +28,6 @@ Use the notebooks in `notebooks/03_metric_analysis/` to compute:
 - pairwise cross-group xCI / xAUC
 - proposed group-level gCI / gAUC
 
-## Reusable metric code
-
-The file `src/gci_metrics.py` contains a clean NumPy-based reference implementation of:
-
-- `xci`
-- `gci`
-- `xauc`
-- `gauc`
-
 ## Data availability
 
 Due to data use restrictions, source EHR data cannot be shared publicly. This repository contains code used for cohort construction, risk score computation, and fairness metric evaluation.
